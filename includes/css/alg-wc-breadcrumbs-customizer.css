@@ -1,0 +1,17 @@
+/**
+ * Breadcrumbs Customizer for WooCommerce - CSS
+ *
+ * @version 2.0.0
+ * @since   2.0.0
+ *
+ * @author  Algoritmika Ltd.
+ */
+
+.woocommerce-breadcrumb,
+.woo-breadcrumbs,
+.breadcrumbs,
+.breadcrumb,
+#breadcrumbs,
+.breadcrumbs-wrapper {
+	display: none !important;
+}

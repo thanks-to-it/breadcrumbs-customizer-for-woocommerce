@@ -1,0 +1,131 @@
+# Copyright (C) 2025 Algoritmika Ltd
+# This file is distributed under the GNU General Public License v3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: Breadcrumbs Customizer for WooCommerce 2.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/breadcrumbs-customizer-for-woocommerce\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-05-31T14:56:01+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: breadcrumbs-customizer-for-woocommerce\n"
+
+#. Plugin Name of the plugin
+#: breadcrumbs-customizer-for-woocommerce.php
+msgid "Breadcrumbs Customizer for WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: breadcrumbs-customizer-for-woocommerce.php
+msgid "https://wordpress.org/plugins/breadcrumbs-customizer-for-woocommerce/"
+msgstr ""
+
+#. Description of the plugin
+#: breadcrumbs-customizer-for-woocommerce.php
+msgid "Customize the WooCommerce breadcrumbs. Beautifully."
+msgstr ""
+
+#. Author of the plugin
+#: breadcrumbs-customizer-for-woocommerce.php
+msgid "Algoritmika Ltd"
+msgstr ""
+
+#. Author URI of the plugin
+#: breadcrumbs-customizer-for-woocommerce.php
+msgid "https://profiles.wordpress.org/algoritmika/"
+msgstr ""
+
+#: includes/class-alg-wc-breadcrumbs-customizer.php:177
+msgid "Settings"
+msgstr ""
+
+#: includes/settings/class-alg-wc-breadcrumbs-customizer-settings-general.php:25
+msgid "General"
+msgstr ""
+
+#: includes/settings/class-alg-wc-breadcrumbs-customizer-settings-general.php:41
+msgid "Options"
+msgstr ""
+
+#: includes/settings/class-alg-wc-breadcrumbs-customizer-settings-general.php:46
+msgid "Change breadcrumbs defaults"
+msgstr ""
+
+#: includes/settings/class-alg-wc-breadcrumbs-customizer-settings-general.php:47
+#: includes/settings/class-alg-wc-breadcrumbs-customizer-settings-general.php:102
+msgid "Enable"
+msgstr ""
+
+#: includes/settings/class-alg-wc-breadcrumbs-customizer-settings-general.php:53
+msgid "Delimiter"
+msgstr ""
+
+#: includes/settings/class-alg-wc-breadcrumbs-customizer-settings-general.php:61
+msgid "Wrap before"
+msgstr ""
+
+#: includes/settings/class-alg-wc-breadcrumbs-customizer-settings-general.php:69
+msgid "Wrap after"
+msgstr ""
+
+#: includes/settings/class-alg-wc-breadcrumbs-customizer-settings-general.php:77
+msgid "Before"
+msgstr ""
+
+#: includes/settings/class-alg-wc-breadcrumbs-customizer-settings-general.php:85
+msgid "After"
+msgstr ""
+
+#: includes/settings/class-alg-wc-breadcrumbs-customizer-settings-general.php:93
+msgid "Home title"
+msgstr ""
+
+#: includes/settings/class-alg-wc-breadcrumbs-customizer-settings-general.php:95
+msgctxt "breadcrumb"
+msgid "Home"
+msgstr ""
+
+#: includes/settings/class-alg-wc-breadcrumbs-customizer-settings-general.php:101
+msgid "Change breadcrumbs home URL"
+msgstr ""
+
+#. Translators: %s: URL.
+#: includes/settings/class-alg-wc-breadcrumbs-customizer-settings-general.php:110
+msgid "Home URL. Leave empty to remove link. Your home URL: %s."
+msgstr ""
+
+#: includes/settings/class-alg-wc-breadcrumbs-customizer-settings-general.php:119
+msgid "Hide breadcrumbs"
+msgstr ""
+
+#: includes/settings/class-alg-wc-breadcrumbs-customizer-settings-general.php:120
+msgid "Hide"
+msgstr ""
+
+#: includes/settings/class-alg-wc-settings-breadcrumbs-customizer.php:26
+msgid "Breadcrumbs Customizer"
+msgstr ""
+
+#: includes/settings/class-alg-wc-settings-breadcrumbs-customizer.php:77
+msgid "Reset Settings"
+msgstr ""
+
+#: includes/settings/class-alg-wc-settings-breadcrumbs-customizer.php:82
+msgid "Reset section settings"
+msgstr ""
+
+#: includes/settings/class-alg-wc-settings-breadcrumbs-customizer.php:83
+msgid "Reset"
+msgstr ""
+
+#: includes/settings/class-alg-wc-settings-breadcrumbs-customizer.php:84
+msgid "Check the box and save changes to reset."
+msgstr ""
+
+#: includes/settings/class-alg-wc-settings-breadcrumbs-customizer.php:124
+msgid "Your settings have been reset."
+msgstr ""
