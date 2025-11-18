@@ -1,6 +1,6 @@
 <?php
 /**
- * Breadcrumbs Customizer for WooCommerce - Main Class
+ * ZILI Breadcrumbs Customizer for WooCommerce - Main Class
  *
  * @version 2.0.0
  * @since   1.0.0
@@ -93,12 +93,12 @@ final class Alg_WC_Breadcrumbs_Customizer {
 	/**
 	 * localize.
 	 *
-	 * @version 1.2.0
+	 * @version 2.0.0
 	 * @since   1.2.0
 	 */
 	function localize() {
 		load_plugin_textdomain(
-			'breadcrumbs-customizer-for-woocommerce',
+			'zili-breadcrumbs-customizer-for-woocommerce',
 			false,
 			dirname( plugin_basename( ALG_WC_BREADCRUMBS_CUSTOMIZER_FILE ) ) . '/langs/'
 		);
@@ -149,14 +149,23 @@ final class Alg_WC_Breadcrumbs_Customizer {
 	function admin() {
 
 		// Action links
-		add_filter( 'plugin_action_links_' . plugin_basename( ALG_WC_BREADCRUMBS_CUSTOMIZER_FILE ), array( $this, 'action_links' ) );
+		add_filter(
+			'plugin_action_links_' . plugin_basename( ALG_WC_BREADCRUMBS_CUSTOMIZER_FILE ),
+			array( $this, 'action_links' )
+		);
 
 		// Settings
-		add_filter( 'woocommerce_get_settings_pages', array( $this, 'add_woocommerce_settings_tab' ) );
+		add_filter(
+			'woocommerce_get_settings_pages',
+			array( $this, 'add_woocommerce_settings_tab' )
+		);
 
 		// Version update
 		if ( get_option( 'alg_wc_breadcrumbs_customizer_version', '' ) !== $this->version ) {
-			add_action( 'admin_init', array( $this, 'version_updated' ) );
+			add_action(
+				'admin_init',
+				array( $this, 'version_updated' )
+			);
 		}
 
 	}
@@ -174,14 +183,14 @@ final class Alg_WC_Breadcrumbs_Customizer {
 		$custom_links = array();
 
 		$custom_links[] = '<a href="' . admin_url( 'admin.php?page=wc-settings&tab=alg_wc_breadcrumbs_customizer' ) . '">' .
-			__( 'Settings', 'breadcrumbs-customizer-for-woocommerce' ) .
+			__( 'Settings', 'zili-breadcrumbs-customizer-for-woocommerce' ) .
 		'</a>';
 
 		return array_merge( $custom_links, $links );
 	}
 
 	/**
-	 * Add Breadcrumbs Customizer settings tab to WooCommerce settings.
+	 * Add "ZILI Breadcrumbs Customizer" settings tab to WooCommerce settings.
 	 *
 	 * @version 2.0.0
 	 * @since   1.0.0

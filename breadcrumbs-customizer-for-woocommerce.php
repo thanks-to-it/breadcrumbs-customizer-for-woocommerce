@@ -1,15 +1,15 @@
 <?php
 /*
-Plugin Name: Breadcrumbs Customizer for WooCommerce
-Plugin URI: https://wordpress.org/plugins/breadcrumbs-customizer-for-woocommerce/
+Plugin Name: ZILI Breadcrumbs Customizer for WooCommerce
+Plugin URI: https://wordpress.org/plugins/zili-breadcrumbs-customizer-for-woocommerce/
 Description: Customize the WooCommerce breadcrumbs. Beautifully.
 Version: 2.0.0
 Author: Algoritmika Ltd
-Author URI: https://profiles.wordpress.org/algoritmika/
+Author URI: https://algoritmika.com
 Requires at least: 4.4
-Text Domain: breadcrumbs-customizer-for-woocommerce
+Text Domain: zili-breadcrumbs-customizer-for-woocommerce
 Domain Path: /langs
-WC tested up to: 9.8
+WC tested up to: 10.3
 Requires Plugins: woocommerce
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html

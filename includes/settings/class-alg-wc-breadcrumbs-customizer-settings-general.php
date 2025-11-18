@@ -1,6 +1,6 @@
 <?php
 /**
- * Breadcrumbs Customizer for WooCommerce - General Section Settings
+ * ZILI Breadcrumbs Customizer for WooCommerce - General Section Settings
  *
  * @version 2.0.0
  * @since   1.0.0
@@ -17,12 +17,12 @@ class Alg_WC_Breadcrumbs_Customizer_Settings_General extends Alg_WC_Breadcrumbs_
 	/**
 	 * Constructor.
 	 *
-	 * @version 1.0.0
+	 * @version 2.0.0
 	 * @since   1.0.0
 	 */
 	function __construct() {
 		$this->id   = '';
-		$this->desc = __( 'General', 'breadcrumbs-customizer-for-woocommerce' );
+		$this->desc = __( 'General', 'zili-breadcrumbs-customizer-for-woocommerce' );
 		parent::__construct();
 	}
 
@@ -38,19 +38,19 @@ class Alg_WC_Breadcrumbs_Customizer_Settings_General extends Alg_WC_Breadcrumbs_
 	function get_settings() {
 		return array(
 			array(
-				'title'                => __( 'Options', 'breadcrumbs-customizer-for-woocommerce' ),
+				'title'                => __( 'Options', 'zili-breadcrumbs-customizer-for-woocommerce' ),
 				'type'                 => 'title',
 				'id'                   => 'alg_wc_breadcrumbs_customizer_options',
 			),
 			array(
-				'title'                => __( 'Change breadcrumbs defaults', 'breadcrumbs-customizer-for-woocommerce' ),
-				'desc'                 => __( 'Enable', 'breadcrumbs-customizer-for-woocommerce' ),
+				'title'                => __( 'Change breadcrumbs defaults', 'zili-breadcrumbs-customizer-for-woocommerce' ),
+				'desc'                 => __( 'Enable', 'zili-breadcrumbs-customizer-for-woocommerce' ),
 				'id'                   => 'alg_wc_breadcrumbs_customizer_change_defaults_enabled',
 				'default'              => 'no',
 				'type'                 => 'checkbox',
 			),
 			array(
-				'desc'                 => __( 'Delimiter', 'breadcrumbs-customizer-for-woocommerce' ),
+				'desc'                 => __( 'Delimiter', 'zili-breadcrumbs-customizer-for-woocommerce' ),
 				'id'                   => 'alg_wc_breadcrumbs_customizer_defaults[delimiter]',
 				'default'              => '&nbsp;&#47;&nbsp;',
 				'type'                 => 'text',
@@ -58,7 +58,7 @@ class Alg_WC_Breadcrumbs_Customizer_Settings_General extends Alg_WC_Breadcrumbs_
 				'alg_wc_brcs_sanitize' => 'textarea',
 			),
 			array(
-				'desc'                 => __( 'Wrap before', 'breadcrumbs-customizer-for-woocommerce' ),
+				'desc'                 => __( 'Wrap before', 'zili-breadcrumbs-customizer-for-woocommerce' ),
 				'id'                   => 'alg_wc_breadcrumbs_customizer_defaults[wrap_before]',
 				'default'              => '<nav class="woocommerce-breadcrumb">',
 				'type'                 => 'text',
@@ -66,7 +66,7 @@ class Alg_WC_Breadcrumbs_Customizer_Settings_General extends Alg_WC_Breadcrumbs_
 				'alg_wc_brcs_sanitize' => 'textarea',
 			),
 			array(
-				'desc'                 => __( 'Wrap after', 'breadcrumbs-customizer-for-woocommerce' ),
+				'desc'                 => __( 'Wrap after', 'zili-breadcrumbs-customizer-for-woocommerce' ),
 				'id'                   => 'alg_wc_breadcrumbs_customizer_defaults[wrap_after]',
 				'default'              => '</nav>',
 				'type'                 => 'text',
@@ -74,7 +74,7 @@ class Alg_WC_Breadcrumbs_Customizer_Settings_General extends Alg_WC_Breadcrumbs_
 				'alg_wc_brcs_sanitize' => 'textarea',
 			),
 			array(
-				'desc'                 => __( 'Before', 'breadcrumbs-customizer-for-woocommerce' ),
+				'desc'                 => __( 'Before', 'zili-breadcrumbs-customizer-for-woocommerce' ),
 				'id'                   => 'alg_wc_breadcrumbs_customizer_defaults[before]',
 				'default'              => '',
 				'type'                 => 'text',
@@ -82,7 +82,7 @@ class Alg_WC_Breadcrumbs_Customizer_Settings_General extends Alg_WC_Breadcrumbs_
 				'alg_wc_brcs_sanitize' => 'textarea',
 			),
 			array(
-				'desc'                 => __( 'After', 'breadcrumbs-customizer-for-woocommerce' ),
+				'desc'                 => __( 'After', 'zili-breadcrumbs-customizer-for-woocommerce' ),
 				'id'                   => 'alg_wc_breadcrumbs_customizer_defaults[after]',
 				'default'              => '',
 				'type'                 => 'text',
@@ -90,16 +90,16 @@ class Alg_WC_Breadcrumbs_Customizer_Settings_General extends Alg_WC_Breadcrumbs_
 				'alg_wc_brcs_sanitize' => 'textarea',
 			),
 			array(
-				'desc'                 => __( 'Home title', 'breadcrumbs-customizer-for-woocommerce' ),
+				'desc'                 => __( 'Home title', 'zili-breadcrumbs-customizer-for-woocommerce' ),
 				'id'                   => 'alg_wc_breadcrumbs_customizer_defaults[home]',
-				'default'              => _x( 'Home', 'breadcrumb', 'breadcrumbs-customizer-for-woocommerce' ),
+				'default'              => _x( 'Home', 'breadcrumb', 'zili-breadcrumbs-customizer-for-woocommerce' ),
 				'type'                 => 'text',
 				'css'                  => 'width:100%;',
 				'alg_wc_brcs_sanitize' => 'textarea',
 			),
 			array(
-				'title'                => __( 'Change breadcrumbs home URL', 'breadcrumbs-customizer-for-woocommerce' ),
-				'desc'                 => __( 'Enable', 'breadcrumbs-customizer-for-woocommerce' ),
+				'title'                => __( 'Change breadcrumbs home URL', 'zili-breadcrumbs-customizer-for-woocommerce' ),
+				'desc'                 => __( 'Enable', 'zili-breadcrumbs-customizer-for-woocommerce' ),
 				'id'                   => 'alg_wc_breadcrumbs_customizer_change_home_url_enabled',
 				'default'              => 'no',
 				'type'                 => 'checkbox',
@@ -107,7 +107,7 @@ class Alg_WC_Breadcrumbs_Customizer_Settings_General extends Alg_WC_Breadcrumbs_
 			array(
 				'desc'                 => sprintf(
 					/* Translators: %s: URL. */
-					__( 'Home URL. Leave empty to remove link. Your home URL: %s.', 'breadcrumbs-customizer-for-woocommerce' ),
+					__( 'Home URL. Leave empty to remove link. Your home URL: %s.', 'zili-breadcrumbs-customizer-for-woocommerce' ),
 					'<code>' . home_url() . '</code>'
 				),
 				'id'                   => 'alg_wc_breadcrumbs_customizer_home_url',
@@ -116,8 +116,8 @@ class Alg_WC_Breadcrumbs_Customizer_Settings_General extends Alg_WC_Breadcrumbs_
 				'css'                  => 'width:100%;',
 			),
 			array(
-				'title'                => __( 'Hide breadcrumbs', 'breadcrumbs-customizer-for-woocommerce' ),
-				'desc'                 => __( 'Hide', 'breadcrumbs-customizer-for-woocommerce' ),
+				'title'                => __( 'Hide breadcrumbs', 'zili-breadcrumbs-customizer-for-woocommerce' ),
+				'desc'                 => __( 'Hide', 'zili-breadcrumbs-customizer-for-woocommerce' ),
 				'id'                   => 'alg_wc_breadcrumbs_customizer_hide',
 				'default'              => 'no',
 				'type'                 => 'checkbox',

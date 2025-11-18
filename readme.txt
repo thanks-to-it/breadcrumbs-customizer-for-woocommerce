@@ -1,4 +1,4 @@
-=== Breadcrumbs Customizer for WooCommerce ===
+=== ZILI Breadcrumbs Customizer for WooCommerce ===
 Contributors: algoritmika, thankstoit, anbinder, karzin
 Tags: woocommerce, breadcrumbs, woo commerce
 Requires at least: 4.4
@@ -11,9 +11,9 @@ Customize the WooCommerce breadcrumbs. Beautifully.
 
 == Description ==
 
-**Breadcrumbs Customizer for WooCommerce** is a lightweight plugin that lets you customize the WooCommerce breadcrumbs.
+**ZILI Breadcrumbs Customizer for WooCommerce** is a lightweight plugin that lets you customize the WooCommerce breadcrumbs.
 
-Breadcrumbs Customizer for WooCommerce is a straightforward yet efficient plugin that grants you complete control over the look of your WooCommerce breadcrumbs.
+ZILI Breadcrumbs Customizer for WooCommerce is a straightforward yet efficient plugin that grants you complete control over the look of your WooCommerce breadcrumbs.
 
 Easily modify the HTML encompassing the breadcrumbs to explore different styling options, changing from the default link representation with separator characters to perhaps an unsorted list of links, and even availing the option to disable them altogether.
 
@@ -56,18 +56,19 @@ This feature is useful for pages where breadcrumb navigation might not be necess
 
 1. Upload the entire plugin folder to the `/wp-content/plugins/` directory.
 2. Activate the plugin through the "Plugins" menu in WordPress.
-3. Start by visiting plugin settings at "WooCommerce > Settings > Breadcrumbs Customizer".
+3. Start by visiting plugin settings at "WooCommerce > Settings > ZILI Breadcrumbs Customizer".
 
 == Changelog ==
 
-= 2.0.0 - 31/05/2025 =
+= 2.0.0 - 18/11/2025 =
 * Dev - "Hide breadcrumbs" - Moved to the free plugin version.
 * Dev - Security - Output escaped.
 * Dev - "High-Performance Order Storage (HPOS)" compatibility.
 * Dev - PHP v8.2 compatibility (dynamic properties).
 * Dev - Code refactoring.
 * Dev - Coding standards improved.
-* WC tested up to: 9.8.
+* Plugin renamed.
+* WC tested up to: 10.3.
 * Tested up to: 6.8.
 
 = 1.2.1 - 19/06/2023 =

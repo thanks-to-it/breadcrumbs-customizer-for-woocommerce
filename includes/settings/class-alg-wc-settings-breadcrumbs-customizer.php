@@ -1,6 +1,6 @@
 <?php
 /**
- * Breadcrumbs Customizer for WooCommerce - Settings
+ * ZILI Breadcrumbs Customizer for WooCommerce - Settings
  *
  * @version 2.0.0
  * @since   1.0.0
@@ -23,7 +23,7 @@ class Alg_WC_Settings_Breadcrumbs_Customizer extends WC_Settings_Page {
 	function __construct() {
 
 		$this->id    = 'alg_wc_breadcrumbs_customizer';
-		$this->label = __( 'Breadcrumbs Customizer', 'breadcrumbs-customizer-for-woocommerce' );
+		$this->label = __( 'ZILI Breadcrumbs Customizer', 'zili-breadcrumbs-customizer-for-woocommerce' );
 		parent::__construct();
 
 		// Sanitize option
@@ -65,33 +65,37 @@ class Alg_WC_Settings_Breadcrumbs_Customizer extends WC_Settings_Page {
 	/**
 	 * get_settings.
 	 *
-	 * @version 1.1.0
+	 * @version 2.0.0
 	 * @since   1.0.0
 	 */
 	function get_settings() {
 		global $current_section;
-		return apply_filters( 'alg_wc_breadcrumbs_customizer_settings', array_merge(
-			apply_filters( 'woocommerce_get_settings_' . $this->id . '_' . $current_section, array() ),
-			array(
+		return apply_filters(
+			'alg_wc_breadcrumbs_customizer_settings',
+			array_merge(
+				apply_filters( 'woocommerce_get_settings_' . $this->id . '_' . $current_section, array() ), // phpcs:ignore WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedHooknameFound
 				array(
-					'title'     => __( 'Reset Settings', 'breadcrumbs-customizer-for-woocommerce' ),
-					'type'      => 'title',
-					'id'        => $this->id . '_' . $current_section . '_reset_options',
-				),
-				array(
-					'title'     => __( 'Reset section settings', 'breadcrumbs-customizer-for-woocommerce' ),
-					'desc'      => '<strong>' . __( 'Reset', 'breadcrumbs-customizer-for-woocommerce' ) . '</strong>',
-					'desc_tip'  => __( 'Check the box and save changes to reset.', 'breadcrumbs-customizer-for-woocommerce' ),
-					'id'        => $this->id . '_' . $current_section . '_reset',
-					'default'   => 'no',
-					'type'      => 'checkbox',
-				),
-				array(
-					'type'      => 'sectionend',
-					'id'        => $this->id . '_' . $current_section . '_reset_options',
-				),
-			)
-		), $current_section );
+					array(
+						'title'     => __( 'Reset Settings', 'zili-breadcrumbs-customizer-for-woocommerce' ),
+						'type'      => 'title',
+						'id'        => $this->id . '_' . $current_section . '_reset_options',
+					),
+					array(
+						'title'     => __( 'Reset section settings', 'zili-breadcrumbs-customizer-for-woocommerce' ),
+						'desc'      => '<strong>' . __( 'Reset', 'zili-breadcrumbs-customizer-for-woocommerce' ) . '</strong>',
+						'desc_tip'  => __( 'Check the box and save changes to reset.', 'zili-breadcrumbs-customizer-for-woocommerce' ),
+						'id'        => $this->id . '_' . $current_section . '_reset',
+						'default'   => 'no',
+						'type'      => 'checkbox',
+					),
+					array(
+						'type'      => 'sectionend',
+						'id'        => $this->id . '_' . $current_section . '_reset_options',
+					),
+				)
+			),
+			$current_section
+		);
 	}
 
 	/**
@@ -121,7 +125,7 @@ class Alg_WC_Settings_Breadcrumbs_Customizer extends WC_Settings_Page {
 	 */
 	function admin_notice_settings_reset() {
 		echo '<div class="notice notice-warning is-dismissible"><p><strong>' .
-			esc_html__( 'Your settings have been reset.', 'breadcrumbs-customizer-for-woocommerce' ) .
+			esc_html__( 'Your settings have been reset.', 'zili-breadcrumbs-customizer-for-woocommerce' ) .
 		'</strong></p></div>';
 	}
 

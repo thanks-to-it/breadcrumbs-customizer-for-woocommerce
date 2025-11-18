@@ -1,6 +1,6 @@
 <?php
 /**
- * Breadcrumbs Customizer for WooCommerce - Core Class
+ * ZILI Breadcrumbs Customizer for WooCommerce - Core Class
  *
  * @version 2.0.0
  * @since   1.0.0
