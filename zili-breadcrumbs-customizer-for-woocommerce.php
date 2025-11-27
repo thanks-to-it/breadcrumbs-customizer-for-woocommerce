@@ -17,7 +17,7 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 defined( 'ABSPATH' ) || exit;
 
-if ( 'breadcrumbs-customizer-for-woocommerce.php' === basename( __FILE__ ) ) {
+if ( 'zili-breadcrumbs-customizer-for-woocommerce.php' === basename( __FILE__ ) ) {
 	/**
 	 * Check if Pro plugin version is activated.
 	 *

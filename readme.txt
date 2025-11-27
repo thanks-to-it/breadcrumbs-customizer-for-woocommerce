@@ -60,7 +60,7 @@ This feature is useful for pages where breadcrumb navigation might not be necess
 
 == Changelog ==
 
-= 2.0.0 - 18/11/2025 =
+= 2.0.0 - 27/11/2025 =
 * Dev - "Hide breadcrumbs" - Moved to the free plugin version.
 * Dev - Security - Output escaped.
 * Dev - "High-Performance Order Storage (HPOS)" compatibility.
